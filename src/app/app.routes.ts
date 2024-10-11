@@ -17,5 +17,6 @@ export const routes: Routes = [
     {
         path:"registro",
         component:RegistrateComponent
-    }
-];
+    },
+    { path: '', redirectTo: '/inicio', pathMatch: 'full' }
+]
